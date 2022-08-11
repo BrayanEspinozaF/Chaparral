@@ -1,0 +1,5 @@
+export { default as closet  } from './closet.jpg'
+export { default as cocineta  } from './cocineta.jpg'
+export { default as recamara  } from './recamara.jpg'
+export { default as recamara2  } from './recamara2.jpg'
+export { default as sala  } from './sala.jpg'

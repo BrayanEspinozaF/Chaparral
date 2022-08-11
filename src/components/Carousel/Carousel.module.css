@@ -1,0 +1,24 @@
+.container
+{
+    height: 200px;
+    position: relative;
+}
+
+/* .top
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: aqua;
+    height: 100px;
+    z-index: 1;
+    clip-path: ellipse(111% 100% at 95.14% 0%);
+    background-image: linear-gradient(to bottom, #a67246, #81513d, #583530, #2e1d1f, #000000);
+} */
+
+.carousel
+{
+    z-index: -1;
+    opacity: .8;
+}
