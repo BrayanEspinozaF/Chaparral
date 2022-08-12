@@ -1,0 +1,38 @@
+.container{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_container{
+    width: 20%;
+    margin-top: 15px;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    list-style-type: none;
+
+}
+
+.container ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.container ul li a:hover{
+    color: rgb(175, 175, 175);
+
+}
