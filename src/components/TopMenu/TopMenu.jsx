@@ -7,6 +7,8 @@ export const TopMenu = () => {
 
     const { width } = useScreenSize()
 
+    console.log(width);
+
     return (
         <>        {
             width > 1000
