@@ -1,3 +1,4 @@
+import { Gallery } from '../../components/Gallery/Gallery'
 import { TopMenu } from '../../components/TopMenu/TopMenu'
 import { MainPage } from '../Main/MainPage'
 import styles from './Feed.module.css'
@@ -7,9 +8,8 @@ export const Feed = () => {
         <div className={styles.container}>
             <TopMenu/>
             <MainPage/>
-            <MainPage/>
-            <MainPage/>
-            <MainPage/>
+            <Gallery/>
+        
         </div>
     )
 }
